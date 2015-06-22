@@ -1,4 +1,9 @@
-
+---
+tags: kids, strings, methods
+languages: python
+level: 1
+type: lab
+---
 ## String Methods Interactive Practice
 ### What will each of the following lines of code return?
 
