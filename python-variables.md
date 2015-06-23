@@ -11,14 +11,18 @@ We use variables in programming to store pieces of data. Variables can store any
 ```python
 minion = "Kevin"
 ```
-In this example, all we've done is defined a variable named `minion` and set it equal to the string `Kevin`. Now, any time we tell our program to `puts minion`, it will print out `Kevin`.
+All we've done is defined a variable named `minion` and set it equal to the string `"Kevin"`. Now, any time we tell our program to `print minion`, it will print out `Kevin`.
 ```python
 print minion
 print minion
 print minion
 ```
 In this example, we should see `Kevin` printed out three times.
-
+```
+Kevin
+Kevin
+Kevin
+```
 What would happen if we did the following:
 ```python
 name = "Kevin"
