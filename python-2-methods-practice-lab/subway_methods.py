@@ -2,15 +2,12 @@
 
 # You hop on the subway at Union Square. As you are waiting for the train you take a look at the subway map. The map is about 21 inches wide and 35 inches tall. Let's write a method to puts the area of the map:
 def map_size(width, height):
-    result= width * height
-    return "The map is %d square inches" %(result)
-
-map_size(21,35)
+    map_area= width * height
+    return "The map is %d square inches" %(map_area)
 
 # Now you give it a shot! It takes about 156 seconds to go between stops and you'll be taking the train for 3 stops. Write a method that puts how long your trip will take.
 def trip_length
   #  put your code here
-
 
 # While you are waiting for the train you decide to play a little dice. Create a method called roll that puts a random number between 1 and 6 (feel free to google "how to generate a random number in ruby").
 
@@ -41,24 +38,24 @@ def trip_length
 
 
 # Call your methods below:
-puts "How big is that subway map?"
+print "How big is that subway map?"
 # call your method here - like this
-map_size
+map_size(21,35)
 
-puts "This is how long the trip will take"
+print "This is how long the trip will take"
 trip_length
 
-puts "While I was waiting I rolled a"
+print "While I was waiting I rolled a"
 # call your method here
 
-puts "How much money did the train dancers make?"
+print "How much money did the train dancers make?"
 # call your method here
 
-puts "That lady told the train dancers to"
+print "That lady told the train dancers to"
 # call your method here
 
-puts "That guy kept shouting"
+print "That guy kept shouting"
 # call your method here
 
-puts "This is how many trips I have left on my metrocard"
+print "This is how many trips I have left on my metrocard"
 # call your method here
