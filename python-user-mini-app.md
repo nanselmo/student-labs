@@ -14,11 +14,7 @@ The first thing we need to do is take in user input with the `raw_input()` metho
 The way `raw_input()` takes in data from the user is important to remember. It does not interpret the data entered, it merely returns exactly what the user enters, the raw data. The second thing to remember is that `raw_input()` also takes one line of input, so once the user presses enter, their input data is complete.
 
 ### The Challenge: A Visit to My Favorite City
-<<<<<<< HEAD
-You're going to build a program that plans tourists' visits to your favorite city. Create a new file with `touch trip.py` in terminal. Open `trip.py` with Atom to start writing your program - `open -a Atom trip.py`.
-=======
- Let's build an application to plan a tourist's visit to your favorite city. You are going to need to create a new Python file by entering `touch trip.py` into your terminal. Open `trip.py` with Atom to start writing your program.
->>>>>>> 00c80daf87af9e36c33fa71b4fb643804fb572f6
+Let's build an application to plan tourists' visits to your favorite city. Create a new file with `touch trip.py` in terminal. Open `trip.py` with Atom to start writing your program - `open -a Atom trip.py`.
 
 You'll want to ask the user where they would like to stay, what sites they want to visit, what food they want to eat, and how many nights they want to stay. For each question, you'll take in input from the user and store each piece in a variable. <img src="https://s3.amazonaws.com/after-school-assets/greetings.jpg" align="right" width="300" hspace="20">
 
