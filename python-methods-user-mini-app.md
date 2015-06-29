@@ -20,7 +20,7 @@ Ask the user where they would like to stay, what sites they want to visit, what 
 
 Once you have that input stored, use string methods (upper(), lower(), capitalize(), etc) to put the input in the proper format. You can always take a look at the Python documentation [here](https://docs.python.org/2/library/stdtypes.html) to learn more about string methods you can use.
 
-Your final output should use *string interpolation* to output the data in a full summary of their trip itinerary. The output should look like this:
+Your final output should use *string interpolation* (remember, `"string {var}".format(var=insert_this)`) to output the data in a full summary of their trip itinerary. The output should look like this:
 
 Destination: Washington DC
 Sites:
