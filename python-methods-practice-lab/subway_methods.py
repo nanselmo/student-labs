@@ -3,7 +3,7 @@
 # You hop on the subway at Union Square. As you are waiting for the train you take a look at the subway map. The map is about 21 inches wide and 35 inches tall. Let's write a method to puts the area of the map:
 def map_size(width, height):
     map_area= width * height
-    return "The map is %d square inches" %(map_area)
+    return "The map is {area} square inches".format(area=map_area)
 
 # Now you give it a shot! It takes about 156 seconds to go between stops and you'll be taking the train for 3 stops. Write a method that puts how long your trip will take.
 def trip_length
