@@ -41,21 +41,23 @@ true_fact = wrong_fact.replace("Cats", "Squirrels").replace("50", "74")
 ```
 ### String Interpolation
 
-we learned how to compose strings with the string concatenation but now we can learn how to do substitution called `string interpolation`. `String interpolation` allows us to *set a placeholder inside a string where python code can be run*. We wrap whatever we want to interpolate "the string gets %s" % "interpreted". Oftentimes, we'll be interpolating variable names within strings.
+we learned how to compose strings with the string concatenation but now we can learn how to do substitution called `string interpolation`. `String interpolation` allows us to *set a placeholder inside a string that we will replace with the results of a python expression*. We put the place to replace in {} curly braces, and use the `.format()` method to insert an expression, so that `"the string gets {word}".format(word="interpreted")`. Oftentimes, we'll be interpolating variable names within strings.
 
 For example: 
+```
 name = "Spongebob Squarepants"
-print "Who lives in a Pineapple under the sea? %s." %name
+print "Who lives in a Pineapple under the sea? {who}!!".format(who=name)
+```
+Note that here we're declaring the variable `name` before we call `print`. We need to do it in this order because the computer reads our program sequentially. When our computer gets to `character=name`, it won't know what `name` is if it isn't set yet.
 
-Note that here we're declaring the variable `answer` before we call `print`. We need to do it in this order because the computer reads our program sequentially. When our computer gets to "%s" %answer it won't know what that is if `answer` isn't declared yet.
-
-If you need to substitute more than one variable the syntax is to call them variables at the end of the string like this: % (place, name)
+If you need to substitute more than one variable the syntax is to call them variables at the end of the string like this: `.format(place="France", name="Jean d'Arc")`
 
 For example:
+```
 place= "Pineapple"
 name= "Spongebob Squarepants"
-print "Who lives in a %s under the sea? %s" %(place, name)
-
+print "Who lives in a {where} under the sea? {who}".format(where=place,who=name)
+```
 Some pythonists write this another way:
 
 ```python
